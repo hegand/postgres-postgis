@@ -1,6 +1,6 @@
-FROM hegand/postgres:9.5
+FROM hegand/postgres:9.6
   
-ENV POSTGIS_VERSION 2.2.2
+ENV POSTGIS_VERSION 2.3.2
  
 RUN echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
